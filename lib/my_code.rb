@@ -36,8 +36,8 @@
 
   def reduce_to_any_true(array)
     array.each do |ele| 
-      if ele == false 
-        return false 
+      if ele == true 
+        return true 
       end 
     end 
     
