@@ -36,10 +36,10 @@
 
   def reduce_to_any_true(array)
     array.each do |ele| 
-      if ele == true 
-        return true 
+      if ele == false 
+        return false 
       end 
     end 
     
-     return false 
+     return true  
   end 
